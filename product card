@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .product-card{
+             border-radius: 12px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 25px;
+            font-family: Verdana, sans-serif;
+            width: 250px;
+            text-align: center;
+        }
+        .product-card img{
+            width:100%;
+        }
+       .product-card p{
+            color: red;
+            font-weight: bold;
+        }
+        .product-card button{
+            background-color: blue;
+            color: white;
+            cursor: pointer;
+        }
+        .product-card button:hover{
+            background-color: cyan;
+        }
+    </style>
+</head>
+<body>
+    <div class="product-card">
+        <img src="https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw19f3b313/images/Titan/Catalog/90177TM03_2.jpg?sw=600&sh=600" alt="titan watch">
+        <h2>Titan watch</h2><br>
+        <p>Price: 3500</p><br>
+        <button>Buy Now</button>
+    </div>
+</body>
+</html>
