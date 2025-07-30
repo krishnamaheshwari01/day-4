@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to right, lightpink, lightorange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+button {
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: lightgray;
+}
