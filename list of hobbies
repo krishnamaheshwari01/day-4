@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies</title>
+    <style>
+        ul{
+            background-color: gray;
+            width: 300px;
+
+        }
+        li{ 
+           color: green;
+           font-size: 20px;
+            border-bottom:3px dashed red;
+        }
+    </style>
+</head>
+<body>
+    <div id="hobbies">
+        <h1>My hobbies are : </h1>
+        <ul>
+            <li>playing chess</li>
+            <li>reading book </li>
+            <li>Coding</li>
+            <li>travelling new place </li>
+            <li>Listening to music</li>
+        </ul>
+    </div>
+
+</body>
+</html>
